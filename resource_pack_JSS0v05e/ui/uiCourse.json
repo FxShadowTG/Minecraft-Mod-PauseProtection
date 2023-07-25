@@ -1,0 +1,225 @@
+{
+   "main" : {
+      "controls" : [
+         {
+            "optionLabel" : {
+               "alpha" : "@uiCourse.tran",
+               "controls" : [
+                  {
+                     "background" : {
+                        "clip_direction" : "left",
+                        "clip_ratio" : 0.0,
+                        "controls" : [],
+                        "layer" : 1,
+                        "offset" : [ 0.0, 0.50 ],
+                        "size" : [ 158, 153 ],
+                        "texture" : "textures/ui/book_frame",
+                        "type" : "image"
+                     }
+                  },
+                  {
+                     "bagLabel" : {
+                        "controls" : [
+                           {
+                              "switch_toggle@common_toggles.switch_toggle_collection" : {
+                                 "$default_texture" : "textures/ui/toggle_off",
+                                 "$hover_texture" : "textures/ui/toggle_on",
+                                 "$pressed_no_hover_texture" : "textures/ui/toggle_on_hover",
+                                 "$pressed_texture" : "textures/ui/toggle_off_hover",
+                                 "$toggle_name" : "#netease_editor_template_namespace.toggle_name",
+                                 "$toggle_state_binding_name" : "#netease_editor_template_namespace.toggle_state",
+                                 "bindings" : [
+                                    {
+                                       "binding_collection_name" : "",
+                                       "binding_condition" : "always_when_visible",
+                                       "binding_type" : "collection_details"
+                                    }
+                                 ],
+                                 "layer" : 1,
+                                 "offset" : [ 36.0, 0.50 ],
+                                 "size" : [ 44, 39 ],
+                                 "type" : "panel"
+                              }
+                           },
+                           {
+                              "bagText" : {
+                                 "color" : [ 0.9490196078431372, 0.9333333333333333, 0.8862745098039215 ],
+                                 "font_scale_factor" : 0.80,
+                                 "font_size" : "large",
+                                 "font_type" : "default",
+                                 "layer" : 1,
+                                 "offset" : [ -25.50, 0.50 ],
+                                 "shadow" : true,
+                                 "size" : [ 59, 15 ],
+                                 "text" : "背包保护",
+                                 "text_alignment" : "center",
+                                 "type" : "label"
+                              }
+                           }
+                        ],
+                        "offset" : [ 0.50, -34.50 ],
+                        "size" : [ 115, 33 ],
+                        "type" : "panel"
+                     }
+                  },
+                  {
+                     "chestLabel" : {
+                        "controls" : [
+                           {
+                              "switch_toggle@common_toggles.switch_toggle_collection" : {
+                                 "$default_texture" : "textures/ui/toggle_off",
+                                 "$hover_texture" : "textures/ui/toggle_on",
+                                 "$pressed_no_hover_texture" : "textures/ui/toggle_on_hover",
+                                 "$pressed_texture" : "textures/ui/toggle_off_hover",
+                                 "$toggle_name" : "#netease_editor_template_namespace.toggle_name",
+                                 "$toggle_state_binding_name" : "#netease_editor_template_namespace.toggle_state",
+                                 "bindings" : [
+                                    {
+                                       "binding_collection_name" : "",
+                                       "binding_condition" : "always_when_visible",
+                                       "binding_type" : "collection_details"
+                                    }
+                                 ],
+                                 "layer" : 1,
+                                 "offset" : [ 36.0, 0.50 ],
+                                 "size" : [ 44, 39 ],
+                                 "type" : "panel"
+                              }
+                           },
+                           {
+                              "chestText" : {
+                                 "color" : [ 0.9490196078431372, 0.9333333333333333, 0.8862745098039215 ],
+                                 "font_scale_factor" : 0.80,
+                                 "font_size" : "large",
+                                 "font_type" : "default",
+                                 "layer" : 1,
+                                 "offset" : [ -25.50, 0.50 ],
+                                 "shadow" : true,
+                                 "size" : [ 59, 15 ],
+                                 "text" : "箱子保护",
+                                 "text_alignment" : "center",
+                                 "type" : "label"
+                              }
+                           }
+                        ],
+                        "offset" : [ 0.50, 0.50 ],
+                        "size" : [ 115, 33 ],
+                        "type" : "panel"
+                     }
+                  },
+                  {
+                     "talkLabel" : {
+                        "controls" : [
+                           {
+                              "switch_toggle@common_toggles.switch_toggle_collection" : {
+                                 "$default_texture" : "textures/ui/toggle_off",
+                                 "$hover_texture" : "textures/ui/toggle_on",
+                                 "$pressed_no_hover_texture" : "textures/ui/toggle_on_hover",
+                                 "$pressed_texture" : "textures/ui/toggle_off_hover",
+                                 "$toggle_name" : "#netease_editor_template_namespace.toggle_name",
+                                 "$toggle_state_binding_name" : "#netease_editor_template_namespace.toggle_state",
+                                 "bindings" : [
+                                    {
+                                       "binding_collection_name" : "",
+                                       "binding_condition" : "always_when_visible",
+                                       "binding_type" : "collection_details"
+                                    }
+                                 ],
+                                 "layer" : 1,
+                                 "offset" : [ 36.0, 0.50 ],
+                                 "size" : [ 44, 39 ],
+                                 "type" : "panel"
+                              }
+                           },
+                           {
+                              "talkText" : {
+                                 "color" : [ 0.9490196078431372, 0.9333333333333333, 0.8862745098039215 ],
+                                 "font_scale_factor" : 0.80,
+                                 "font_size" : "large",
+                                 "font_type" : "default",
+                                 "layer" : 1,
+                                 "offset" : [ -25.50, 0.50 ],
+                                 "shadow" : true,
+                                 "size" : [ 59, 15 ],
+                                 "text" : "聊天保护",
+                                 "text_alignment" : "center",
+                                 "type" : "label"
+                              }
+                           }
+                        ],
+                        "offset" : [ 0.50, 34.50 ],
+                        "size" : [ 115, 33 ],
+                        "type" : "panel"
+                     }
+                  },
+                  {
+                     "close@common.button" : {
+                        "$control_alpha" : 1.0,
+                        "$default_texture" : "textures/ui/close_button_default",
+                        "$hover_texture" : "textures/ui/close_button_default",
+                        "$is_new_nine_slice" : false,
+                        "$label_color" : [ 0.7764705882352941, 0.7764705882352941, 0.7764705882352941 ],
+                        "$label_font_scale_factor" : 1.0,
+                        "$label_font_size" : "large",
+                        "$label_layer" : 3,
+                        "$label_offset" : [ 0, 0 ],
+                        "$label_text" : "",
+                        "$nine_slice_buttom" : 0,
+                        "$nine_slice_left" : 0,
+                        "$nine_slice_right" : 0,
+                        "$nine_slice_top" : 0,
+                        "$nineslice_size" : [ 0, 0, 0, 0 ],
+                        "$pressed_button_name" : "%netease_editor_template_namespace.click",
+                        "$pressed_texture" : "textures/netease/common/button/pressed",
+                        "$texture_layer" : 2,
+                        "bindings" : [
+                           {
+                              "binding_collection_name" : "",
+                              "binding_condition" : "always_when_visible",
+                              "binding_type" : "collection_details"
+                           }
+                        ],
+                        "button_mappings" : [],
+                        "controls" : [
+                           {
+                              "default@netease_editor_template_namespace.default" : {}
+                           },
+                           {
+                              "hover@netease_editor_template_namespace.hover" : {}
+                           },
+                           {
+                              "pressed@netease_editor_template_namespace.pressed" : {}
+                           },
+                           {
+                              "button_label@netease_editor_template_namespace.button_label" : {}
+                           }
+                        ],
+                        "default_control" : "default",
+                        "hover_control" : "hover",
+                        "is_handle_button_move_event" : true,
+                        "layer" : 2,
+                        "offset" : [ 63.50, -62.0 ],
+                        "pressed_control" : "pressed",
+                        "size" : [ 31, 24 ],
+                        "type" : "button"
+                     }
+                  }
+               ],
+               "offset" : [ -3.50, 2.50 ],
+               "propagate_alpha" : true,
+               "size" : [ 157, 151 ],
+               "type" : "panel"
+            }
+         }
+      ],
+      "type" : "screen"
+   },
+   "namespace" : "uiCourse",
+   "tran" : {
+      "anim_type" : "alpha",
+      "duration" : 1.0,
+      "from" : 0.0,
+      "next" : "",
+      "to" : 1.0
+   }
+}

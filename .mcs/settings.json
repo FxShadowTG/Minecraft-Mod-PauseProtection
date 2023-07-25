@@ -1,0 +1,17 @@
+{
+    "Arena.Component.Namespace": "djpfi",
+    "FirstTabSetting": 0,
+    "ShortItemSettings": [
+        "resource_pack_JSS0v05e\\ui",
+        "behavior_pack_MTqj1GPp\\Presets",
+        "behavior_pack_MTqj1GPp\\Parts",
+        "behavior_pack_MTqj1GPp\\BoxData",
+        "resource_pack_JSS0v05e\\effects",
+        "resource_pack_JSS0v05e\\models",
+        "resource_pack_JSS0v05e\\textures"
+    ],
+    "Uluru.autoLayerDict": {
+
+    },
+    "Uluru.checkSuspectOldUI": true
+}

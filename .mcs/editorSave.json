@@ -1,0 +1,41 @@
+{
+    "Addon": {
+        "EnchantSetting": {
+            "amplifier": 1
+        },
+        "PackResourceSortData": {
+            "2_djpfi:protectOption": {
+                "createTime": 1689056870.5330398,
+                "modifyTime": 1689056895.1389265
+            },
+            "8_djpfi:protectOption": {
+                "createTime": 1689056907.5439253,
+                "modifyTime": 1689056932.7450595
+            }
+        },
+        "PlayerEffectSetting": {
+            "amplifier": 1,
+            "duration": 10
+        },
+        "PresetInstanceTreeData": [
+
+        ]
+    },
+    "UI": {
+        "customPrefabGroupExpand": [
+
+        ],
+        "expandData": {
+            "prefab": {
+
+            },
+            "screen": {
+                "D:\\MCStudioDownload\\work\\zx1292492939@163.com\\Cpp\\AddOn\\572015a13c3548cb99fd9355546dd77f\\resource_pack_JSS0v05e\\ui\\uiCourse.json": [
+                    "/main",
+                    "/main/optionLabel",
+                    "/main/optionLabel/bagLabel"
+                ]
+            }
+        }
+    }
+}
